@@ -52,7 +52,8 @@ ineAtlas.data/
     ├── census_tracts_2019.gpkg.zip
     ├── census_tracts_2020.gpkg.zip
     ├── census_tracts_2021.gpkg.zip
-    └── census_tracts_2022.gpkg.zip
+    ├── census_tracts_2022.gpkg.zip
+    └── census_tracts_2023.gpkg.zip
 ```
 
 ## Documentation
@@ -64,6 +65,9 @@ Full documentation and codebook is available at [https://pablogguz.github.io/ine
 This repository is automatically updated when new data is released by INE using the data processing pipeline in the main [`ineAtlas`](https://github.com/pablogguz/ineAtlas) repository.
 
 ## Changelog 
+
+### [0.4.0] - 2025-10-22
+- **New data for 2023!**
 
 ### [0.3.0] - 2025-04-24
 - Re-built data extraction pipeline and corrected minor bugs that caused some data to be missing for some census tracts in the previous version
